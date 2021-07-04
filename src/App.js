@@ -22,7 +22,7 @@ function App() {
     e.preventDefault();
     axios
       .get(
-        `http://api.weatherapi.com/v1/current.json?key=46c4ba94cd29410fa59210518210207&q=${city}&aqi=no`
+        `http://api.weatherapi.com/v1/current.json?key=4c3b50ebf1794ac1811153835210407&q=${city}&aqi=no`
       )
       .then((res) => {
         setResults({
